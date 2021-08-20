@@ -1,0 +1,23 @@
+{
+    "name": "lemoba/aminx",
+    "description": "PHP framework base amphp",
+    "type": "project",
+    "require": {
+        "amphp/amp": "2.x-dev",
+        "amphp/redis": "dev-master",
+        "amphp/http-server": "2.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lemoba\\Aminx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lemoba",
+            "email": "lemoba@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
