@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Lemoba\\Aminx\\": "src/"
+            "Lemoba\\Aminx\\": "app/"
         }
     },
     "authors": [
